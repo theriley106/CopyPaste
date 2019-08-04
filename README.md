@@ -44,3 +44,13 @@ We deskew the image to ensure the card is not slanting too far in one direction.
 <p>
   <img src="static/5.png" width="500px"/>
 </p>
+
+### Step 6
+
+Tesseract is used to do optical character recognition on the scanned image.  The image is rotated and a score is assigned based on the results from tesseract to determine the correct orientation of the card.
+
+In this example the card is rotated 180 degrees.
+
+<p>
+  <img src="static/6.png" width="500px"/>
+</p>
