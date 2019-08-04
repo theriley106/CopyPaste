@@ -3,7 +3,7 @@ Utility to Replicate Standard 3.375 × 2.125 inch PVC Cards using a Canon TS9120
 
 <p>
   <img src="static/8.png" width="500px"/>
-  <h3>The replicated card is nearly indistinguishable from the original.</h3>
+  <h5>The replicated card is nearly indistinguishable from the original.</h5>
 </p>
 
 ## Process
