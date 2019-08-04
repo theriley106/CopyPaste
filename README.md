@@ -12,6 +12,9 @@ $ ./setup.sh
 
 Installing dependancies...
 
+```
+
+```bash
 $ python main.py
 
 Scanning started
