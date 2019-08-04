@@ -7,12 +7,16 @@ Utility to Replicate Standard 3.375 × 2.125 inch PVC Cards using a Canon TS9120
 
 ## Instructions
 
+#### Install Dependancies
+
 ```bash
 $ ./setup.sh
 
 Installing dependancies...
 
 ```
+
+#### Replicate Card
 
 ```bash
 $ python main.py
