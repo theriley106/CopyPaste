@@ -1,6 +1,10 @@
 # Card_Replicator
 Utility to Replicate Standard 3.375 × 2.125 inch PVC Cards using a Canon TS9120
 
+<p>
+  <img src="static/8.png" width="500px"/>
+  <h3>The replicated card is nearly indistinguishable from the original.</h3>
+</p>
 
 ## Process
 
@@ -63,10 +67,3 @@ A template is created to print the scanned card with a [Canon M Tray](https://br
   <img src="static/7.png" width="500px"/>
 </p>
 
-## Results
-
-The replicated card is nearly indistinguishable from the original.
-
-<p>
-  <img src="static/8.png" width="500px"/>
-</p>
