@@ -54,3 +54,11 @@ In this example the card is rotated 180 degrees.
 <p>
   <img src="static/6.png" width="500px"/>
 </p>
+
+### Step 7
+
+A template is created to print the scanned card with a [Canon M Tray](https://brainstormidsupply.com/pvc-card-tray-for-canon-m-tray-printers-ts80xx-ts81xx-ts90xx-ts91xx.html).
+
+<p>
+  <img src="static/7.png" width="500px"/>
+</p>
