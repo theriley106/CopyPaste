@@ -2,6 +2,11 @@ from pytesseract import pytesseract
 from PIL import Image
 import os
 
+TEMPLATE_FILE = "template.png"
+
+def save_for_readme():
+	os.system("cp temp_* static/")
+
 def scan_image():
 	os.system("./scanline -flatbed -jpg -dir . -name temp_result")
 
@@ -12,6 +17,14 @@ def deskew_image(src="temp_result.jpg", dst="temp_image2.jpg", percent=40):
 def deskew_flatten_image(src="temp_final8.png", dst="temp_image2.jpg", percent=50):
 	os.system("convert {} -flatten -deskew {}% {}".format(src, percent, dst))
 
+def create_template(src="final.png", dst="cards.png"):
+	img = Image.open(src, 'r')
+	img_w, img_h = img.size
+	background = Image.open(TEMPLATE_FILE)
+	img = img.resize((730,461))
+	background.paste(img, (277,430), img)
+	background.paste(img, (277,930), img)
+	background.save(dst)
 
 def make_transparent(src="temp_image2.jpg", dst="temp_result.png"):
 	os.system('magick {} -fuzz 10% -bordercolor "#eeeced" -border 1 -fill none -draw "alpha 0,0 floodfill" -shave 1x1 {}'.format(src, "temp_result.png"))
@@ -40,7 +53,7 @@ def calc_consistant(string):
 				score += 1
 			except:
 
-				score = score - 1
+				#score = score - 1
 				prevCapital = char.isupper()
 				prevInt = False
 		else:
@@ -93,6 +106,8 @@ if __name__ == '__main__':
 	deskew_flatten_image()
 	make_transparent()
 	remove_noise()
+	#save_for_readme()
 	finalize()
 	correct_rotate("final.png")
+	create_template()
 	
