@@ -21,4 +21,26 @@ We remove the background to make the image transparent, and apply a mask to remo
   <img src="static/2.png" width="500px"/>
 </p>
 
-We deskew the image to ensure the card is not slanting too far in one direction.  
+### Step 3
+
+We use the "Unrotate" script created by Fred Weinhaus to rotate the card.  This tool accurately fixes images where the card is rotated more than 5 degrees.
+
+<p>
+  <img src="static/3.jpg" width="500px"/>
+</p>
+
+### Step 4
+
+We once again apply a filter to more accurately remove the background from the image.
+
+<p>
+  <img src="static/4.png" width="500px"/>
+</p>
+
+### Step 5
+
+We deskew the image to ensure the card is not slanting too far in one direction.  Deskew generally fixes cases where the card is rotated ~5 degrees and it adds an extra level of presision when fixing unwanted slanting in the image produced by Unrotate.
+
+<p>
+  <img src="static/5.png" width="500px"/>
+</p>
