@@ -31,7 +31,7 @@ Template successfully created!  Saved as: output.png
 
 ### Step 1
 
-A card is placed onto the scanner in any orientation.  Using scanline we can save the results from the flatbed scanner to as a JPEG.
+A card is placed onto the scanner in any orientation.  Using scanline we can save the results from the flatbed scanner as a JPEG.
 
 <p>
   <img src="static/1.png" width="500px"/>
