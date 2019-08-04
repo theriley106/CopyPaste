@@ -62,3 +62,11 @@ A template is created to print the scanned card with a [Canon M Tray](https://br
 <p>
   <img src="static/7.png" width="500px"/>
 </p>
+
+## Results
+
+The replicated card is nearly indistinguishable from the original.
+
+<p>
+  <img src="static/8.png" width="500px"/>
+</p>
