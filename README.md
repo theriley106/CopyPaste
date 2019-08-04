@@ -81,3 +81,8 @@ A template is created to print the scanned card with a [Canon M Tray](https://br
   <img src="static/7.png" width="500px"/>
 </p>
 
+## Acknowledgements
+
+Huge thanks to Scott Kleper and his work on the command line scanning utility [Scanline](https://github.com/klep/scanline).  Thanks to Fred Weinhaus for his work on [Unrotate](http://www.fmwconcepts.com/imagemagick) and his various ImageMagick scripts.
+
+
