@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 scanline
 unrotate
+.DS_Store
