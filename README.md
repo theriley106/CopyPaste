@@ -64,7 +64,7 @@ We once again apply a filter to more accurately remove the background from the i
 
 ### Step 5
 
-We deskew the image to ensure the card is not slanting too far in one direction.  Deskew generally fixes cases where the card is rotated ~5 degrees and it adds an extra level of presision when fixing unwanted slanting in the image produced by Unrotate.
+We deskew the image to ensure the card is not slanting too far in one direction.  Deskew generally fixes cases where the card is rotated ~5 degrees and it adds an extra level of precision when fixing unwanted slanting in the image produced by Unrotate.
 
 <p>
   <img src="static/5.png" width="500px"/>
